@@ -74,14 +74,14 @@ uvicorn main:app --reload
 ```
 
 ### 6. Acesse a aplicação
-- **Interface Web**: [http://localhost:8000](http://localhost:8000)
+- **Interface Web**: Disponível através do Live Server
 - **Documentação da API**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## 📖 Como Usar
 
 ### 🖥️ Interface Web (Recomendado)
 
-1. **Acesse o formulário**: Abra [http://localhost:8000](http://localhost:8000) no seu navegador
+1. **Acesse o formulário**: Abra o Live Server em sua IDE
 2. **Preencha seus dados**:
    - Idade (15-80 anos)
    - Peso em kg
