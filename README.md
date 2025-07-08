@@ -95,19 +95,27 @@ uvicorn main:app --reload
 
 ### 🔧 API REST (Para Desenvolvedores)
 
-#### Endpoint Principal: `/analisar`
+#### Endpoint Principal: `/analyze`
 
-**POST** `/analisar`
+**POST** `/analyze`
 
 ```json
 {
-  "idade": 28,
-  "peso": 70.5,
-  "altura": 175,
-  "genero": "masculino",
-  "nivel_atividade": "moderadamente_ativo",
-  "objetivo_fitness": "ganho_massa",
-  "dias_treino_por_semana": 4
+    "age": 21,
+    "weight": 81,
+    "height": 183,
+    "gender": "male",
+    "activity_level": "sedentary",
+    "fitness_goal": "muscle_gain",
+    "dietary_restrictions": [
+        "lactose intolerant"
+    ],
+    "injuries": [],
+    "preferred_workout_time": "morning",
+    "available_equipment": [
+        "all"
+    ],
+    "workout_days_per_week": 5
 }
 ```
 
