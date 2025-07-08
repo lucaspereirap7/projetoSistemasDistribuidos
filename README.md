@@ -83,7 +83,7 @@ uvicorn main:app --reload
 
 1. **Acesse o formulário**: Abra o Live Server em sua IDE
 2. **Preencha seus dados**:
-   - Idade (15-80 anos)
+   - Idade
    - Peso em kg
    - Altura em cm
    - Gênero (Masculino/Feminino)
