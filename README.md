@@ -184,7 +184,7 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 ## 🐛 Solução de Problemas
 
 ### Interface não carrega
-- Verifique se o servidor está rodando em `http://localhost:8000`
+- Verifique se o servidor está rodando corretamente pelo Live Server
 - Confirme que todos os arquivos estáticos estão no lugar correto
 - Verifique o console do navegador para erros JavaScript
 
