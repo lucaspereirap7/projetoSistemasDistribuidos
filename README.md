@@ -229,12 +229,6 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 - [ ] 🍽️ Calculadora de calorias com fotos
 - [ ] 👨‍⚕️ Integração com profissionais de saúde
 
-## 📞 Suporte e Contato
-
-- **Issues no GitHub**: [Reportar problema](https://github.com/joaopaulodaree/trabalho-pratico-sd/issues)
-- **Email**: [joaopaulo@exemplo.com](mailto:joaopaulo@exemplo.com)
-- **LinkedIn**: [João Paulo Daré](https://linkedin.com/in/joaopaulodaree)
-
 ## 📊 Estatísticas
 
 - **Linguagem principal**: Python (70%), JavaScript (20%), HTML/CSS (10%)
