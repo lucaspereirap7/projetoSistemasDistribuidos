@@ -180,7 +180,6 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 🌟 Reconhecimentos
 
-- **Ollama** - Por tornar a IA acessível localmente
 - **FastAPI** - Framework incrível para APIs Python
 - **Pydantic AI** - Simplificando o desenvolvimento com IA
 - **Comunidade Open Source** - Por inspiração e suporte
