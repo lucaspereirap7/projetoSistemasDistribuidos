@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from models import FitnessProfile, FitnessReportResult 
+from app.models import FitnessProfile, FitnessReportResult 
 
 app = FastAPI()
 
