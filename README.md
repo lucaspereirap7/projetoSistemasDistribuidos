@@ -40,7 +40,6 @@ Um sistema inteligente de consultoria fitness que utiliza inteligência artifici
 
 - **Python 3.8+** instalado
 - **pip** (gerenciador de pacotes do Python)
-- **Ollama** instalado no sistema
 - **Navegador web** moderno (Chrome, Firefox, Safari, Edge)
 
 ## 🛠️ Instalação e Configuração
@@ -52,23 +51,17 @@ cd trabalho-pratico-sd
 git checkout fitness-advisor
 ```
 
-### 2. Baixe os modelos necessários
-```bash
-ollama pull llama3.2
-ollama pull mistral
-```
-
-### 3. Instale as dependências Python
+### 2. Instale as dependências Python
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Execute o servidor
+### 3. Execute o servidor
 ```bash
 uvicorn main:app --reload
 ```
 
-### 6. Acesse a aplicação
+### 4. Acesse a aplicação
 - **Interface Web**: Disponível através do Live Server
 - **Documentação da API**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
