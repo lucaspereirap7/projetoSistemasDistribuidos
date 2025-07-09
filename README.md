@@ -114,25 +114,6 @@ uvicorn main:app --reload
 }
 ```
 
-## 🏗️ Estrutura do Projeto
-
-```
-fitness-advisor/
-├── 📁 static/              # Arquivos estáticos
-│   ├── 🎨 styles.css      # Estilos da interface
-│   ├── ⚡ script.js       # Lógica do frontend
-├── 📁 templates/          # Templates HTML
-│   └── 🏠 index.html      # Página principal
-├── 📁 app/                # Código da aplicação
-│   ├── 🐍 main.py         # Servidor FastAPI
-│   ├── 📋 models.py       # Modelos de dados
-│   ├── 🔧 services.py     # Lógica de negócio
-│   └── 🛠️ controller.py   # Controlador API
-├── 📄 requirements.txt    # Dependências Python
-└── 📖 README.md          # Esta documentação
-
-```
-
 ## 🎨 Funcionalidades da Interface
 
 ### Validação de Formulário
