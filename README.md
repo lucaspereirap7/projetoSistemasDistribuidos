@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
-[![Ollama](https://img.shields.io/badge/Ollama-Latest-orange.svg)](https://ollama.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Um sistema inteligente de consultoria fitness que utiliza inteligência artificial para criar planos personalizados de treino e nutrição. O projeto inclui uma **interface web intuitiva** com formulário para facilitar a interação do usuário, além de uma API robusta para integração com outros sistemas.
@@ -27,7 +26,6 @@ Um sistema inteligente de consultoria fitness que utiliza inteligência artifici
 ### Backend
 - **[FastAPI](https://fastapi.tiangolo.com/)** - Framework web moderno e rápido para construção de APIs
 - **[Pydantic AI](https://ai.pydantic.dev/)** - Framework para desenvolvimento de aplicações com IA
-- **[Ollama](https://ollama.com/)** - Execução local de modelos de linguagem
 - **Python 3.8+** - Linguagem de programação principal
 
 ### Frontend
@@ -54,21 +52,18 @@ cd trabalho-pratico-sd
 git checkout fitness-advisor
 ```
 
-### 2. Instale o Ollama
-Acesse [https://ollama.com/download](https://ollama.com/download) e siga as instruções para seu sistema operacional.
-
-### 3. Baixe os modelos necessários
+### 2. Baixe os modelos necessários
 ```bash
 ollama pull llama3.2
 ollama pull mistral
 ```
 
-### 4. Instale as dependências Python
+### 3. Instale as dependências Python
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Execute o servidor
+### 4. Execute o servidor
 ```bash
 uvicorn main:app --reload
 ```
@@ -197,7 +192,6 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 - Verifique o console do navegador para erros JavaScript
 
 ### Erro na geração de planos
-- Confirme que o Ollama está rodando e o(s) modelo(s) rodando localmente estão baixados
 - Verifique os logs do servidor para mensagens de erro
 - Teste a API diretamente em `/docs`
 
